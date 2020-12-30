@@ -1,6 +1,6 @@
 // Copyright 2019 Drone.IO Inc. All rights reserved.
-// Use of this source code is governed by the Drone Non-Commercial License
-// that can be found in the LICENSE file.
+// Use of this source code is governed by the Drone Community
+// License that can be found in the LICENSE file.
 
 package runtime
 
@@ -13,7 +13,7 @@ package runtime
 // 	"testing"
 
 // 	"github.com/drone/autoscaler/mocks"
-// 	"github.com/drone/drone-runtime/engine"
+// 	"github.com/osdro/drone-runtime/engine"
 // 	"github.com/golang/mock/gomock"
 // )
 

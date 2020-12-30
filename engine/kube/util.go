@@ -1,6 +1,6 @@
 // Copyright 2019 Drone.IO Inc. All rights reserved.
-// Use of this source code is governed by the Drone Non-Commercial License
-// that can be found in the LICENSE file.
+// Use of this source code is governed by the Drone Community
+// License that can be found in the LICENSE file.
 
 package kube
 
@@ -8,9 +8,8 @@ import (
 	"path"
 	"path/filepath"
 	"strings"
-	"strconv"
 
-	"github.com/drone/drone-runtime/engine"
+	"github.com/osdro/drone-runtime/engine"
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
@@ -292,7 +291,6 @@ func toService(spec *engine.Spec, step *engine.Step) *v1.Service {
 			target = source
 		}
 		ports = append(ports, v1.ServicePort{
-			Name: strconv.Itoa(source),
 			Port: int32(source),
 			TargetPort: intstr.IntOrString{
 				IntVal: int32(target),

@@ -14,7 +14,7 @@
 
 package runtime
 
-import "github.com/drone/drone-runtime/engine"
+import "github.com/osdro/drone-runtime/engine"
 
 // Option configures a Runtime option.
 type Option func(*Runtime)

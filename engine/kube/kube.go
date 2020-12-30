@@ -1,6 +1,6 @@
 // Copyright 2019 Drone.IO Inc. All rights reserved.
-// Use of this source code is governed by the Drone Non-Commercial License
-// that can be found in the LICENSE file.
+// Use of this source code is governed by the Drone Community
+// License that can be found in the LICENSE file.
 
 package kube
 
@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-runtime/engine/docker/auth"
+	"github.com/osdro/drone-runtime/engine"
+	"github.com/osdro/drone-runtime/engine/docker/auth"
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

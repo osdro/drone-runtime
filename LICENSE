@@ -2,17 +2,17 @@ Copyright 2019 Drone.IO, Inc.
 
 Source code in this repository is variously licensed under the
 Apache License Version 2.0, an Apache compatible license, or the
-Drone Non-Commercial License. Source code in a given file is
-licensed under the Drone Non-Commercial License unless otherwise
-noted at the beginning of the file.
+Drone Community License. Source code in a given file is licensed
+under the Drone Community License unless otherwise noted at the
+beginning of the file.
 
 -----------------------------------------------------------------
 
-Drone Non-Commercial License
+Drone Community License
 
 Contributor: Drone.IO, Inc.
 
-Source Code: https://github.com/drone/drone-runtime
+Source Code: https://github.com/osdro/drone-runtime
 
 This license lets you use and share this software for free,
 with a trial-length time limit on commercial use. Specifically:

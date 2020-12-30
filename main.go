@@ -1,6 +1,6 @@
 // Copyright 2019 Drone.IO Inc. All rights reserved.
-// Use of this source code is governed by the Drone Non-Commercial License
-// that can be found in the LICENSE file.
+// Use of this source code is governed by the Drone Community
+// License that can be found in the LICENSE file.
 
 package main
 
@@ -14,13 +14,13 @@ import (
 
 	"github.com/mattn/go-isatty"
 
-	"github.com/drone/drone-runtime/engine"
-	"github.com/drone/drone-runtime/engine/docker"
-	"github.com/drone/drone-runtime/engine/docker/auth"
-	"github.com/drone/drone-runtime/engine/kube"
-	"github.com/drone/drone-runtime/runtime"
-	"github.com/drone/drone-runtime/runtime/term"
-	"github.com/drone/signal"
+	"github.com/osdro/drone-runtime/engine"
+	"github.com/osdro/drone-runtime/engine/docker"
+	"github.com/osdro/drone-runtime/engine/docker/auth"
+	"github.com/osdro/drone-runtime/engine/kube"
+	"github.com/osdro/drone-runtime/runtime"
+	"github.com/osdro/drone-runtime/runtime/term"
+	"github.com/osdro/signal"
 )
 
 var tty = isatty.IsTerminal(os.Stdout.Fd())

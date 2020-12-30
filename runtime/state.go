@@ -14,7 +14,7 @@
 
 package runtime
 
-import "github.com/drone/drone-runtime/engine"
+import "github.com/osdro/drone-runtime/engine"
 
 // State defines the pipeline and process state.
 type State struct {
